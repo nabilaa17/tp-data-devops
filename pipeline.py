@@ -1,6 +1,7 @@
 """Pipeline de données : extraire -> transformer -> charger."""
 
 from pathlib import Path
+
 import pandas as pd
 
 ENTREE = Path("data/ventes.csv")
